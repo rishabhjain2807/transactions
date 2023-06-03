@@ -1,0 +1,59 @@
+.App {
+  position: relative;
+  text-align: center;
+  padding: 40px;
+}
+
+.bu {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 5px 10px;
+  align-items: center;
+}
+
+.bu:hover {
+  cursor: pointer
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  align-self: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+  font-size: 40px;
+  padding: 20px;
+}
+
+
+.tx {
+  padding: 20px;
+  width: 800px;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.tx:hover {
+  text-decoration: underline white;
+}
+
+
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.input {
+  height: 30px;
+  width: 1000px;
+  border-width: 0px;
+}
